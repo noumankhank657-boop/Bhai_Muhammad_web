@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { PrismaClient } = require('@prisma/client');
+const { PrismaClient } = require('./generated/client/index.js');
 const prisma = new PrismaClient();
 
 const menuItems = [
