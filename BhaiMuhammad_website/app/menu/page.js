@@ -1,6 +1,8 @@
 import MenuClient from '@/components/MenuClient';
 import prisma from '@/lib/prisma';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = {
   title: 'Our Menu - Bhai Muhammad Nimko Corner & Kabab House',
   description: 'Explore our full menu of delicious BBQ, Broast, Rolls, and more.',
